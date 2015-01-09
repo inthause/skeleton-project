@@ -1,8 +1,5 @@
 {
 	"Change":{
-		"Application":{
-			"development-mode":true
-		},
 		"Db":{
 			"use":"mysql",
 			"mysql":{
@@ -15,10 +12,7 @@
 			}
 		},
 		"I18n":{
-			"supported-lcids":[
-				"en_US",
-				"fr_FR"
-			]
+			"supported-lcids":["fr_FR", "en_US"]
 		},
 		"Install":{
 			"webBaseDirectory":"www",
